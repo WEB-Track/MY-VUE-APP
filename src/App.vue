@@ -11,9 +11,9 @@ import HelloWorld from './components/HelloWorld.vue'
       <img src="./assets/vue.svg" class="logo vue layout-logo" alt="Vue logo" />
     </a>
   </div>
-  <HelloWorld msg="Vite + Vue" />
+    <HelloWorld msg="Vite + Vue" />
 </template>
 
 <style lang="scss">
-  @import './assets/scss/main.scss' 
-  </style>
+  @use './assets/scss/main.scss' 
+</style>
